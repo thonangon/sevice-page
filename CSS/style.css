@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background: rgb(236, 231, 231);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background: grey;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-left {
+    width: 50%;
+}
+
+.nav-right {
+    width: 50%;
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+
+button {
+
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background: yellow;
+    width: 20%;
+    height: 3vh;
+}
+
+header {
+    width: 100%;
+
+    height: 50vh;
+    background: gold;
+}
+
+.head-top {
+    display: flex;
+    height: 40vh;
+
+}
+
+.head-left {
+    width: 50%;
+    padding: 100px;
+}
+
+.head-right {
+    width: 50%;
+}
+
+.head-right img {
+    width: 100%;
+    height: 35vh;
+
+
+}
+
+h1 {
+    text-align: center;
+
+    line-height: 150%;
+    letter-spacing: 2px;
+}
+
+.head-bottom {
+    height: 10vh;
+}
+
+.btn {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 12px;
+    width: 30%;
+    height: 5vh;
+    /* letter-spacing: 2px; */
+    cursor: pointer;
+    background: rgba(0, 212, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
+    /* filter: drop-shadow(0); */
+    font-weight: bold;
+    /* transition: all .3s ease; */
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+.btn:hover {
+    transform: scale(1.125);
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+    transition: all .3s ease;
+}
+
+p {
+    width: 70%;
+    margin-left: 20px;
+}
+
+aside {
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(46, 34, 211);
+    margin-top: 20px;
+}
+
+.aside-img img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding: 30px;
+    border-radius: 999px;
+    display: block;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+main {
+    height: 50vh;
+    
+}
+#pet-food {
+    margin-top: 30px;
+
+}
+
+.food {
+    
+    width: 100%;
+    height: 5vh;
+    margin: 0px 10px 0px 10px;
+    background:#cfcf20;
+    display: flex;
+   
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+.word-food{
+  font-size: 20px;
+  font-weight:bold;
+    
+    
+}
+
+
+.main-pet-food {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.main-img{
+    background: red;
+   
+}
+.main-img img {
+
+    margin-top: 30px;
+    width: 250px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.price{
+    text-align: center;
+}
+span{
+
+    position: relative;
+    margin: 0px 0px 0px 24px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-size: 20px;
+    font-weight: 700;
+    color: orange;
+}
